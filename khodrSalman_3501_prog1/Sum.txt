@@ -1,0 +1,21 @@
+		Summary Table
+		NormalTest1
+
+	BST	AVL	Splay
+Search	15	14	6	
+Insert	51	51	32	
+Delete	3	5	2	
+-----------------------------------------------
+Total	69	70	40
+
+
+-------------------ALL TOTALS------------------
+---------------------BELOW---------------------
+
+		Summary
+		Operation Counts
+
+Test#	TestName	BST	AVL	Splay
+1	NormalTest1	69	70	40
+-----------------------------------------------
+Total			69	70	40

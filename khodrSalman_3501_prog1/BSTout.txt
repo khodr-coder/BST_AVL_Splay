@@ -1,0 +1,257 @@
+
+ ____________________________________________
+BST insert operation 9
+
+bst insert operations count -> 1
+
+ height in BST tree is now 1
+
+  9
+ ____________________________________________
+BST insert operation 7
+
+bst insert operations count -> 3
+
+ height in BST tree is now 2
+
+    9
+  7    
+ ____________________________________________
+BST insert operation 14
+
+bst insert operations count -> 5
+
+ height in BST tree is now 2
+
+    9
+  7   14
+ ____________________________________________
+BST insert operation 25
+
+bst insert operations count -> 8
+
+ height in BST tree is now 3
+
+      9
+   7     14
+            25
+ ____________________________________________
+BST insert operation 2
+
+bst insert operations count -> 11
+
+ height in BST tree is now 3
+
+      9
+   7     14
+ 2          25
+ ____________________________________________
+BST insert operation 23
+
+bst insert operations count -> 15
+
+ height in BST tree is now 4
+
+        9
+    7       14
+  2              25
+               23      
+ ____________________________________________
+BST insert operation 4
+
+bst insert operations count -> 19
+
+ height in BST tree is now 4
+
+        9
+    7       14
+  2              25
+   4           23      
+ ____________________________________________
+BST insert operation 18
+
+bst insert operations count -> 24
+
+ height in BST tree is now 5
+
+          9
+     7         14
+  2                  25
+   4              23        
+                18            
+ ____________________________________________
+BST insert operation 10
+
+bst insert operations count -> 27
+
+ height in BST tree is now 5
+
+          9
+     7         14
+  2         10        25
+   4                23        
+                  18            
+ ____________________________________________
+BST insert operation 27
+
+bst insert operations count -> 31
+
+ height in BST tree is now 5
+
+          9
+     7         14
+  2         10        25
+   4                23       27
+                  18               
+ ____________________________________________
+BST insert operation 3
+
+bst insert operations count -> 36
+
+ height in BST tree is now 5
+
+          9
+     7         14
+  2         10        25
+   4                23       27
+  3               18               
+ ____________________________________________
+BST insert operation 3
+
+bst insert operations count -> 41
+
+ height in BST tree is now 5
+
+          9
+     7         14
+  2         10        25
+   4                23       27
+  3(2)               18               
+ ____________________________________________
+
+ ____________________________________________
+ BST search operation 11
+Value not in tree
+BST parent 9
+level 3
+BST search operations count -> 3
+
+ height in BST tree is now 5
+
+          9
+     7         14
+  2         10        25
+   4                23       27
+  3(2)               18               
+ ____________________________________________
+
+ ____________________________________________
+ BST search operation 26
+Value not in tree
+BST parent 9
+level 4
+BST search operations count -> 4
+
+ height in BST tree is now 5
+
+          9
+     7         14
+  2         10        25
+   4                23       27
+  3(2)               18               
+ ____________________________________________
+
+ ____________________________________________
+ BST search operation 4
+BST parent 9
+level 3
+BST search operations count -> 4
+
+ height in BST tree is now 5
+
+          9
+     7         14
+  2         10        25
+   4                23       27
+  3(2)               18               
+ ____________________________________________
+
+ ____________________________________________
+ BST search operation 28
+Value not in tree
+BST parent 9
+level 4
+BST search operations count -> 4
+
+ height in BST tree is now 5
+
+          9
+     7         14
+  2         10        25
+   4                23       27
+  3(2)               18               
+ ____________________________________________
+BST insert operation 4
+
+bst insert operations count -> 4
+
+ height in BST tree is now 5
+
+          9
+     7         14
+  2         10        25
+   4(2)                23       27
+  3(2)               18               
+ ____________________________________________
+BST insert operation 7
+
+bst insert operations count -> 2
+
+ height in BST tree is now 5
+
+          9
+     7(2)         14
+  2         10        25
+   4(2)                23       27
+  3(2)               18               
+ ____________________________________________
+BST insert operation 11
+
+bst insert operations count -> 4
+
+ height in BST tree is now 5
+
+          9
+     7(2)         14
+  2         10        25
+   4(2)           11    23       27
+  3(2)                18               
+ ____________________________________________
+BST delete operation 7
+BST delete operation count-> 2
+
+ height in BST tree is now 5
+
+          9
+     7         14
+  2         10        25
+   4(2)           11    23       27
+  3(2)                18               
+ ____________________________________________
+BST delete operation 7
+BST delete operation count-> 1
+
+ height in BST tree is now 5
+
+          9
+     2         14
+       4(2)    10        25
+     3(2)          11    23       27
+                     18               		Summary Table
+		NormalTest1
+	BST	AVL	Splay
+Search	15	14	6	
+Insert	51	51	32	
+Delete	3	5	2	
+-------------------------------------------------
+Total	69	70	40
