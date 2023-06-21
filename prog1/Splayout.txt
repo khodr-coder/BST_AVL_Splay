@@ -1,0 +1,216 @@
+
+ ____________________________________________
+splay insert operation 9
+
+splay insert operations count ->1
+
+ HEIGHT IN SPLAY TREE IS NOW -> 1
+
+  9
+ ____________________________________________
+splay insert operation 7
+splay rotations zag- 
+
+splay insert operations count ->3
+
+ HEIGHT IN SPLAY TREE IS NOW -> 2
+
+    7
+      9
+ ____________________________________________
+splay insert operation 14
+splay rotations zig- 
+splay insert operations count ->5
+
+ HEIGHT IN SPLAY TREE IS NOW -> 3
+
+      14
+          
+          
+ ____________________________________________
+splay insert operation 25
+splay rotations zig- 
+
+splay insert operations count ->7
+
+ HEIGHT IN SPLAY TREE IS NOW -> 2
+
+    25
+       
+ ____________________________________________
+splay insert operation 2
+splay rotations zag- 
+
+splay insert operations count ->9
+
+ HEIGHT IN SPLAY TREE IS NOW -> 2
+
+    2
+      25
+ ____________________________________________
+splay insert operation 23
+splay rotations  zig-zag - 
+splay insert operations count ->12
+
+ HEIGHT IN SPLAY TREE IS NOW -> 2
+
+    23
+      25
+ ____________________________________________
+splay insert operation 4
+splay rotations zag- 
+
+splay insert operations count ->14
+
+ HEIGHT IN SPLAY TREE IS NOW -> 3
+
+      4
+         23
+           25
+ ____________________________________________
+splay insert operation 18
+splay rotations  zig-zag - 
+splay insert operations count ->17
+
+ HEIGHT IN SPLAY TREE IS NOW -> 3
+
+      18
+         23
+           25
+ ____________________________________________
+splay insert operation 10
+splay rotations zag- 
+
+splay insert operations count ->19
+
+ HEIGHT IN SPLAY TREE IS NOW -> 4
+
+        10
+            18
+               23
+                  25
+ ____________________________________________
+splay insert operation 27
+splay rotations zig- splay rotations zig- 
+splay insert operations count ->22
+
+ HEIGHT IN SPLAY TREE IS NOW -> 4
+
+        27
+             
+             
+             
+ ____________________________________________
+splay insert operation 3
+splay rotations zag- 
+
+splay insert operations count ->24
+
+ HEIGHT IN SPLAY TREE IS NOW -> 2
+
+    3
+      27
+ ____________________________________________
+splay insert operation 3
+
+splay insert operations count ->24
+
+ HEIGHT IN SPLAY TREE IS NOW -> 2
+
+    3(2)
+      27
+ ____________________________________________
+
+ ____________________________________________
+ Splay search operation  11
+splay rotations zig- 
+
+splay search operations count -> 3
+
+ HEIGHT IN SPLAY TREE IS NOW -> 2
+
+    27
+       
+ ____________________________________________
+
+ ____________________________________________
+ Splay search operation  26
+
+splay search operations count -> 1
+
+ HEIGHT IN SPLAY TREE IS NOW -> 1
+
+  27
+ ____________________________________________
+
+ ____________________________________________
+ Splay search operation  4
+
+splay search operations count -> 1
+
+ HEIGHT IN SPLAY TREE IS NOW -> 1
+
+  27
+ ____________________________________________
+
+ ____________________________________________
+ Splay search operation  28
+
+splay search operations count -> 1
+
+ HEIGHT IN SPLAY TREE IS NOW -> 1
+
+  27
+ ____________________________________________
+splay insert operation 4
+splay rotations zag- 
+
+splay insert operations count ->2
+
+ HEIGHT IN SPLAY TREE IS NOW -> 2
+
+    4
+      27
+ ____________________________________________
+splay insert operation 7
+splay rotations  zig-zag - 
+splay insert operations count ->3
+
+ HEIGHT IN SPLAY TREE IS NOW -> 2
+
+    7
+      27
+ ____________________________________________
+splay insert operation 11
+splay rotations  zig-zag - 
+splay insert operations count ->3
+
+ HEIGHT IN SPLAY TREE IS NOW -> 2
+
+    11
+      27
+ ____________________________________________
+Splay delete operation 7
+not in tree
+Splay delete operation count-> 1
+
+ HEIGHT IN SPLAY TREE IS NOW -> 2
+
+    11
+      27
+ ____________________________________________
+Splay delete operation 7
+not in tree
+Splay delete operation count-> 1
+
+ HEIGHT IN SPLAY TREE IS NOW -> 2
+
+    11
+      27		Summary Table
+		NormalTest1
+	BST	AVL	Splay
+Search	15	14	6	
+Insert	51	51	32	
+Delete	3	5	2	
+-------------------------------------------------
+Total	69	70	40
